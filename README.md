@@ -1,7 +1,6 @@
 This directory contains everything needed for
-Chapter 3 (i.e., Problem 3 in Act I, Scene II (Communities)).
-
-**Files for STUDENTS**
+**Chapter 3 (Replace Text with Emoji)** in
+*Computational Thinking and Problem Solving*.
 
 `script32.py`: a limited-functionality script that turns a story
 into a theatrical script.
@@ -34,3 +33,9 @@ and call site in pseudocode.
 and the utility of modules.
 
 `import.py` and `module32.py`: scripts that help illustrate how control flows with module imports and the value of the special variable `__name__`.
+
+`pythontutor.py`: used in ALE3.4, Step 1. Copy everything but the first
+comment into the pythontutor.com edit box.
+
+`scope.py` and `scope_broken.py`: scripts for talking about scope
+in Python and how not to use global variables. Used in ALE08.

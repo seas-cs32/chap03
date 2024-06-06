@@ -10,9 +10,9 @@ if (len(sys.argv) == 2):
 else:
     sys.exit("Usage: python3 script32.py book.txt")
 
-#with open('txts/' + book) as my_open_book:
+with open('txts/' + book) as my_open_book:
 #with open('txts/' + book, encoding='utf-8') as my_open_book:
-with open('txts/' + book, encoding='latin-1') as my_open_book:
+#with open('txts/' + book, encoding='latin-1') as my_open_book:
      # Set our FSM to the start state
     looking_for_open_quote = True
 

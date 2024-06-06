@@ -1,13 +1,14 @@
 ### chap03/import.py
+print("import.py: At start of script")
 
-print(f"{__name__}: Before the import in import.py")
 import module32
-print(f"{__name__}: After the import in import.py")
 
 def main():
-    print(f"{__name__}: In main of import.py; ", end='')
-    print(f"i = {module32.i}; ", end='')
+    print("import.py: At start of main")
+
+    print(f"i = {module32.i}; ")
     print(f"still42? {module32.still42()}")
 
+print("import.py: Before check of __name__ =", __name__)
 if __name__ == '__main__':
     main()
