@@ -1,10 +1,7 @@
-"""
-script32.py is a limited-functionality script that turns a story
-into a theatrical script.
-"""
+### chap03/script32.py
 import sys
 
-# Grab the filename of the book to script from the command line
+# Grab the book filename from the command line
 if (len(sys.argv) == 2):
     book = sys.argv[1]
 else:
@@ -19,12 +16,11 @@ with open('txts/' + book) as my_open_book:
     while True:
         the_line = my_open_book.readline()
 
+        # Check for EOF
         if the_line == '':
-            # We've read the entire book!
-            print("\nThe End.")
             break
 
-        if looking_for_open_quote:   # in s0
+        if looking_for_open_quote:   # in S0
             i = the_line.find('"')
             if i != -1:
                 # Found an open quote.  Optimistically grab the
@@ -39,7 +35,7 @@ with open('txts/' + book) as my_open_book:
                     print("\nACTOR: " + '"' + short_dialog + '"')
                     # ... and stay in state S0
 
-        else:                        # in s1
+        else:                        # in S1
             i = the_line.find('"')
             if i != -1:
                 # Found a close quote.  Grab the last bit of the line of
@@ -51,3 +47,5 @@ with open('txts/' + book) as my_open_book:
             else:
                 # No close quote in the line buffer
                 dialog += the_line
+
+print("\nThe End.")

@@ -1,6 +1,7 @@
 This directory contains everything needed for
 **Chapter 3 (Replace Text with Emoji)** in
-*Computational Thinking and Problem Solving*.
+[*Computational Thinking and Problem Solving (CTPS)*](https://profsmith89.github.io/ctps/ctps.html)
+by Michael D. Smith.
 
 `script32.py`: a limited-functionality script that turns a story
 into a theatrical script.
