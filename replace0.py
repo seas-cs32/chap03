@@ -7,7 +7,8 @@ with open('txts/' + my_book) as my_open_book:
         the_line = my_open_book.readline()
         print(the_line, end='')
 
+        # Check for EOF
         if the_line == '':
-            # We've read the entire book!
-            print("\nThe End.")
             break
+
+print("\nThe End.")

@@ -9,7 +9,7 @@ into a theatrical script.
 `txts`: Directory containing plaintext files used in the textbook,
 exercises, and assignments.
 
-`replace0.py`: an improved version of our script from Chapter 1, which simply
+`replace0.py`: an improved version of our script from Chapter 1, which
 reads out the input text file.
 
 `replace1.py`: a script that replaces an instance of "Cat" with "Gato".
@@ -17,21 +17,21 @@ reads out the input text file.
 `replace23.py`: a script that replaces _all_ instances of "Cat" with the
 cat-with-wry-smile emoji.
 
-`replace4.py`: a script that replaces _all_ instances of "Cat" and "Hat" with
-fun emoji.
+`replace4.py`: a script that replaces _all_ instances of "Cat" and "Hat"
+with fun emoji.
 
-`replace5.py`: a script that doesn't use string-replace, but sets us up to write
-our own function.
+`replace5.py`: a script that doesn't use string-replace, but sets us up to
+write our own function.
 
-`replace6.py`: a script that illustrates a function definition, implementation,
-and call site in pseudocode.
+`replace6.py`: a script that illustrates a function definition,
+implementation, and call site in pseudocode.
 
 `replace7.py`: a script with our own string-replace function.
 
 `replace32.py`: our complete script for solving the problem in Chapter 3.
 
-`bookshelf*.py`: scripts that help us gain a deeper understanding of abstraction
-and the utility of modules.
+`bookshelf*.py`: scripts that help us gain a deeper understanding of
+abstraction and the utility of modules.
 
 `import.py` and `module32.py`: scripts that help illustrate how control flows with module imports and the value of the special variable `__name__`.
 
@@ -40,3 +40,8 @@ comment into the pythontutor.com edit box.
 
 `scope.py` and `scope_broken.py`: scripts for talking about scope
 in Python and how not to use global variables. Used in ALE08.
+
+`ale3_5.ipynb` and `ale3_8.ipynb`: interactive Python notebooks for
+ALEs 5 and 8, in case you'd rather try them in this form.
+
+`ale09.py`: Script to be used in ALE 9.

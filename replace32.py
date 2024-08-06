@@ -31,10 +31,11 @@ def main():
 
             print(the_line, end='')
 
+            # Check for EOF
             if the_line == '':
-                # We've read the entire book!
-                print("\nThe End.")
                 break
+
+    print("\nThe End.")
 
 if __name__ == '__main__':
     main()

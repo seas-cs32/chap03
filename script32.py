@@ -10,7 +10,7 @@ else:
 with open('txts/' + book) as my_open_book:
 #with open('txts/' + book, encoding='utf-8') as my_open_book:
 #with open('txts/' + book, encoding='latin-1') as my_open_book:
-     # Set our FSM to the start state
+    # Set our FSM to the start state
     looking_for_open_quote = True
 
     while True:
