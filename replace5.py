@@ -7,7 +7,7 @@ with open('txts/' + my_book) as my_open_book:
         the_line = my_open_book.readline()
 
         # Having some fun with text substitution
-        # my code to replace ‘Cat’ with '\N{cat face with wry smile}'
+        # my code to replace 'Cat' with '\N{cat face with wry smile}'
         # my code to replace 'Hat' with '\N{top hat}'
 
         print(the_line, end='')
