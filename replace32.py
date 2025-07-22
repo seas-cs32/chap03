@@ -1,7 +1,7 @@
 ### chap03/replace32.py
 
 def my_replace(s, old, new):
-    """Returns a string replacing all occurrences of old with new."""
+    """Returns a string replacing all instances of old with new."""
     i = 0           # tracks where we are in the input string
     j = len(old)    # skip-ahead amount for index calculations
     new_s = s[0:0]  # the new string we're building
@@ -19,7 +19,7 @@ def my_replace(s, old, new):
 
 def main():
     my_book = input('What book would you like to read? ')
-    print()   # print a blank line between question and script's output
+    print()   # print a blank line
 
     with open('txts/' + my_book) as my_open_book:
         while True:
